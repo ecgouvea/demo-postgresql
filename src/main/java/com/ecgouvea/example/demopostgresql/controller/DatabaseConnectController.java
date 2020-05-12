@@ -18,7 +18,7 @@ public class DatabaseConnectController {
     ) throws Exception {
         //String url = "jdbc:postgresql://dev-simuladortributario.ctabjq8ajjko.us-east-1.rds.amazonaws.com:5432/simuladortributario?user=simtribRoot12&password=123Mudar12";
         String url = null;
-        String sql = "select * from public.tabela_teste";
+        String sql = "* from public.tabela_teste";
         String values = "";
 
         if (connectionString != null) {

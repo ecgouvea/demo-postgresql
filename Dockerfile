@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk-alpine
 
-ARG JAR_FILE=build/libs/find-links.jar
+ARG JAR_FILE=build/libs/demo-postgresql-0.0.1-SNAPSHOT.jar
 #ARG JAR_LIB_FILE=target/lib/
 
 # cd /usr/local/runme
